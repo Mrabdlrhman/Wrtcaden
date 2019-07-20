@@ -1,0 +1,150 @@
+@font-face {
+  font-family: "flat";
+  src: url('/font/JF-Flat-regular.eot');
+  src: url('/font/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+  url('/font/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+  url('/font/JF-Flat-regular.woff') format('woff'),
+  url('/font/JF-Flat-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+  direction: rtl;
+  font-family: flat;
+  padding-top: 56px;
+  background: #f9f9f9;
+  
+}
+.carousel-item {
+  height: 65vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.navbar-brand>span{
+  font-size: 18px;
+  font-family: flat;
+  color: #fff;
+  
+}
+.titleWo{
+  margin-right: 14px;
+  font-size: 19px;
+  line-height: 7px;
+  color: #fff;
+}
+/* .titleWo2{
+  margin-left: 15px;
+  color: #fff;
+} */
+.gridRight{
+  background: red;
+}
+.gridLeft{
+  background: blue;
+}
+.mession{
+  text-align: center;
+  font-size: 1.6rem;
+  position: relative;
+  display: block;
+  color: #3a495f;
+  margin: 2rem 0;
+
+}
+.mession:after {
+  content: "";
+  background: #ececec;
+  width: 45px;
+  display: inline-block;
+  padding: 1px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.mession:before {
+  content: "";
+  background: #ececec;
+  width: 45px;
+  display: inline-block;
+  padding: 1px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.lead{
+  text-align: center;
+  font-size: 1.1rem;
+}
+.bg-light {
+  background-color: #3B2A4E!important;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #fff;
+}
+/* .pageContent{
+ 
+} */
+.aboutWom{
+  background: #fff;
+}
+.sidbarMore{
+  margin-top: 7rem!important;
+}
+.sidbarMore2{
+  margin-top: 13rem!important;
+}
+.sidbarMore3{
+  margin-top: 22rem!important;
+}
+.newsTitle{
+  margin:0!important;
+  
+}
+.newsCard{
+  padding:0!important; 
+}
+.imageMore{
+  height: 30%;
+  width: 100%;
+}
+.btn-primary{
+background: #3B2A4E;
+border-color: #3B2A4E;
+}
+#main_footer {
+  margin-top: 2rem;
+  overflow: hidden;
+  background: #3B2A4E;
+  padding: 1.4rem 0;
+  color: rgba(255,255,255,0.8);
+  font-size: 15px;
+  text-align: center;
+}
+.resume-section {
+  background: #fff;
+}
+.btn-info{
+  background: #3B2A4E;
+}
+#titleForm{
+  color: #3a495f;
+  font-size: 18px;
+}
+.btn-primary:hover{
+  background: #433553;
+}
+.btn-info:hover{
+  background: #433553;
+  border-color:#433553;
+}
+#contWeight{
+  font-weight: 700;
+}
+.contAdress{
+  padding-right: 30px;
+}
+.workshop3{
+  margin-bottom: 80px;
+}
